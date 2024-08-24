@@ -29,9 +29,9 @@ function Header(){
                 <a href="#PROJECTS" className='links' onClick={closeMenu}>Projects</a>
                 <a href="#CONTACT" className='links' onClick={closeMenu}>Contact Me</a>
                 <div className="social-links">
-                    <a href="https://github.com/Leonardo-Figueiredo-do-Nascimento" target="_blank"><img id='github'  src="public/Photos/github-icon.png"/></a>
-                    <a href="https://www.linkedin.com/in/leonardo-figueiredo-do-nascimento-087724231/?locale=en_US" target="_blank"><img src="public/Photos/linkedin-icon.png"/></a>
-                    <a href="mailto:leonardofigueiredodonascimento@gmail.com"><img id='mail' src="public/Photos/email-icon-2.jpg"/></a>
+                    <a href="https://github.com/Leonardo-Figueiredo-do-Nascimento" target="_blank"><img id='github'  src="/photos/github-icon.png"/></a>
+                    <a href="https://www.linkedin.com/in/leonardo-figueiredo-do-nascimento-087724231/?locale=en_US" target="_blank"><img src="/photos/linkedin-icon.png"/></a>
+                    <a href="mailto:leonardofigueiredodonascimento@gmail.com"><img id='mail' src="/photos/email-icon-2.jpg"/></a>
                 </div>
             </div>
         </div>

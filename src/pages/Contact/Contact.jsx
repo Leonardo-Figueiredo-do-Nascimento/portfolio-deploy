@@ -5,9 +5,9 @@ function Contact(){
         <div className="contact-root" id="CONTACT">
             <h2>Here are the ways you can contact the solution for your problems</h2>
             <div className="contacts">
-                <h3 id='phone'><img src="public/photos/phone-icon.png"/><p>:</p> +55 16 99290-1043</h3>
-                <h3 id='linkedin'><img src="public/photos/linkedin-icon2.png"/><p>:</p> <a href="https://www.linkedin.com/in/leonardo-figueiredo-do-nascimento-087724231/?locale=en_US" target='_blank'> Linkedin</a></h3>
-                <h3 id='gmail'><img src="public/photos/gmail-icon.png"/> <p>:</p> leonardofigueiredodonascimento@gmail.com</h3>
+                <h3 id='phone'><img src="/photos/phone-icon.png"/><p>:</p> +55 16 99290-1043</h3>
+                <h3 id='linkedin'><img src="/photos/linkedin-icon2.png"/><p>:</p> <a href="https://www.linkedin.com/in/leonardo-figueiredo-do-nascimento-087724231/?locale=en_US" target='_blank'> Linkedin</a></h3>
+                <h3 id='gmail'><img src="/photos/gmail-icon.png"/> <p>:</p> leonardofigueiredodonascimento@gmail.com</h3>
                 <h3 id='else'>If you'd like to establish contact through a specific messaging app or another means of communication, 
                     please inform me through one of the three contacts above.</h3>
             </div>
