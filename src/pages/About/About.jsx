@@ -14,7 +14,7 @@ function About(){
             <h3 className='about-titles'>My experience</h3>
             <div className='jobs'>
                 <ExperienceCard 
-                    img="computer_technician_02.jpg" 
+                    img="Computer_technician_02.jpg" 
                     job="Tech Support Internship" 
                     time="6 months"
                     description="I provided technical consultation to diagnose and troubleshoot client issues, performed software installations on both local and client systems, and handled computer assembly and repair"
