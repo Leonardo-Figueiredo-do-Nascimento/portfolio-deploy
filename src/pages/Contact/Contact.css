@@ -1,0 +1,292 @@
+.contact-root{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #212121;
+    color: rgba(240, 248, 255, 0.911);
+}
+@media (max-width:600px) {
+    .contact-root h2{
+        height: auto;
+        width: 80%;
+        font-size: 6vw;
+        margin-top: 10vw;
+        margin-bottom: 10vw;
+        text-shadow: 0 0 2vw orange;
+    }
+    .contacts{
+        height: auto;
+        width: 80%;
+        font-size: 4vw;
+        padding: 5vw;
+        border: 1vw solid white;
+        margin-bottom: 10vw;
+        box-shadow: 0 0 4vw 0.5vw orange;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: start;
+    }
+    .contacts p{
+        height: auto;
+        width: auto;
+        font-size: 3vh;
+        padding: 0 0.5vw;  
+    }
+    #gmail img,#linkedin img,#phone img{
+        height: 10vw;
+        width: 10vw;
+    }
+    #gmail,#linkedin,#phone{
+        height: auto;
+        width: 90%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+    }
+    #linkedin a{
+        height: auto;
+        width: 80%;
+        color: white;
+        text-decoration: none;
+        word-wrap: break-word;
+    }
+    #gmail{
+        height: auto;
+        width: 100%;
+        color: white;
+        text-decoration: none;
+        word-wrap: break-word;
+        font-size: 4.5vw;
+        word-break: break-all;
+        white-space: normal;
+    }
+    #else{
+        margin-top: 5vw;
+        margin-bottom: 2vw;
+        padding: 2vw;
+        font-size: 4.5vw;
+        border: 0.5vw solid white;
+    }
+}
+@media (min-width:601px) and (max-width:870px) {
+    .contact-root h2{
+        height: auto;
+        width: 80%;
+        font-size: 4vw;
+        margin-top: 7vw;
+        margin-bottom: 7vw;
+        text-align: center;
+        text-shadow: 0 0 2vw orange;
+    }
+    .contacts{
+        height: auto;
+        width: 75%;
+        font-size: 2.5vw;
+        padding: 4vw;
+        margin-bottom: 10vw;
+        border: 0.5vw solid white;
+        box-shadow: 0 0 4vw 0.5vw orange;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: start;
+    }
+    .contacts p{
+        height: auto;
+        width: auto;
+        font-size: 3vw;
+        padding: 0 0.5vw;  
+    }
+    #gmail img,#linkedin img,#phone img{
+        height: 5vw;
+        width: 5vw;
+    }
+    #gmail,#linkedin,#phone{
+        height: auto;
+        width: 90%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        margin-top: 1vw;
+        margin-bottom: 2vw;
+    }
+    #linkedin a{
+        height: auto;
+        width: auto;
+        color: white;
+        text-decoration: none;
+        word-wrap: break-word;
+    }
+    #linkedin a:hover{
+        height: auto;
+        width: auto;
+        color: rgb(74, 157, 252);
+        transition: 0.1s;
+        text-align: 0 0 1vw white;
+    }
+    #gmail{
+        height: auto;
+        width: 90%;
+        color: white;
+        text-decoration: none;
+        word-wrap: break-word;
+        font-size: 3vw;
+    }
+    #else{
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+        font-size: 3vw;
+        padding: 2vw;
+        border: 0.5vw solid white;
+    }
+}
+@media (min-width:871px) and (max-width:1024px){
+    .contact-root h2{
+        height: auto;
+        width: 80%;
+        font-size: 4vw;
+        margin-top: 7vw;
+        margin-bottom: 7vw;
+        text-align: center;
+        text-shadow: 0 0 2vw orange;
+    }
+    .contacts{
+        height: auto;
+        width: 75%;
+        font-size: 2.5vw;
+        padding: 4vw;
+        margin-bottom: 10vw;
+        border: 0.5vw solid white;
+        box-shadow: 0 0 4vw 0.5vw orange;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: start;
+    }
+    .contacts p{
+        height: auto;
+        width: auto;
+        font-size: 3vw;
+        padding: 0 0.5vw;  
+    }
+    #gmail img,#linkedin img,#phone img{
+        height: 5vw;
+        width: 5vw;
+    }
+    #gmail,#linkedin,#phone{
+        height: auto;
+        width: 90%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        margin-top: 1vw;
+        margin-bottom: 2vw;
+    }
+    #linkedin a{
+        height: auto;
+        width: auto;
+        color: white;
+        text-decoration: none;
+        word-wrap: break-word;
+    }
+    #linkedin a:hover{
+        height: auto;
+        width: auto;
+        color: rgb(74, 157, 252);
+        transition: 0.1s;
+        text-align: 0 0 1vw white;
+    }
+    #gmail{
+        height: auto;
+        width: 90%;
+        color: white;
+        text-decoration: none;
+        word-wrap: break-word;
+        font-size: 3vw;
+    }
+    #else{
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+        font-size: 2.5vw;
+        padding: 2vw;
+        border: 0.5vw solid white;
+    }
+}
+@media (min-width:1025px){
+    .contact-root h2{
+        height: auto;
+        width: 80%;
+        font-size: 4vw;
+        margin-top: 7vw;
+        margin-bottom: 7vw;
+        text-align: center;
+        text-shadow: 0 0 2vw orange;
+    }
+    .contacts{
+        height: auto;
+        width: 75%;
+        font-size: 2.5vw;
+        padding: 4vw;
+        margin-bottom: 10vw;
+        border: 0.5vw solid white;
+        box-shadow: 0 0 4vw 0.5vw orange;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: start;
+    }
+    .contacts p{
+        height: auto;
+        width: auto;
+        font-size: 3vw;
+        padding: 0 0.5vw;  
+    }
+    #gmail img,#linkedin img,#phone img{
+        height: 5vw;
+        width: 5vw;
+    }
+    #gmail,#linkedin,#phone{
+        height: auto;
+        width: 90%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        margin-top: 1vw;
+        margin-bottom: 2vw;
+    }
+    #linkedin a{
+        height: auto;
+        width: auto;
+        color: white;
+        text-decoration: none;
+        word-wrap: break-word;
+    }
+    #linkedin a:hover{
+        height: auto;
+        width: auto;
+        color: rgb(74, 157, 252);
+        transition: 0.1s;
+        text-align: 0 0 1vw white;
+    }
+    #gmail{
+        height: auto;
+        width: 90%;
+        color: white;
+        text-decoration: none;
+        word-wrap: break-word;
+        font-size: 3vw;
+    }
+    #else{
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+        font-size: 2vw;
+        padding: 2vw;
+        border: 0.5vw solid white;
+    }
+}

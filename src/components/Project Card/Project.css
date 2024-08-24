@@ -1,0 +1,403 @@
+.yt-video, .git-repo{
+    box-shadow: 0 0 1vw 0.5vw black;
+    transition: 0.1s;
+}
+.yt-video:hover, .git-repo:hover{
+    box-shadow: 0 0 1vw 0.5vw whitesmoke;
+    background-color: #000;
+    color: aliceblue;
+    transition: 0.3s;
+}
+@media (max-width:600px) {
+    .project-div{
+        height: auto;
+        width: 70vw;
+        background-color: rgb(83, 83, 83);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 10px;
+        position: relative;
+        border: 0.5vw solid white;
+        margin-bottom: 12vw;
+    }
+    .rank{
+        height: 14vw;
+        width: 14vw;
+        top: -10vw;
+        left: -10vw;
+        font-size: 13vw;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border: 1vw solid white;
+        border-radius: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(61, 47, 255);
+        position: absolute;
+    }
+    .project-div h3{
+        height: auto;
+        width: auto;
+        background-color: black;
+        padding: 1vw;
+        text-align: center;
+        border-radius: 10px 10px 0 0;
+        font-size: 9vw;
+        width: 100%;
+    }
+    .project-div h4{
+        height: auto;
+        width: 80%;
+        font-size: 6vw;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+    }
+    .tech-stack{
+        height: auto;
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(3,auto);
+        justify-content: center;
+        column-gap: 2vw;
+        row-gap: 2vw;
+        margin-bottom: 10vw;
+    }
+    .tech-used{
+        height: 12vw;
+        width: 12vw;
+        padding: 1vw;
+        justify-self: center;
+        background-color: aliceblue;
+        border-radius: 100px;
+    }
+    .project-links{
+        height: auto;
+        width: 100%;
+        margin-bottom: 5vw;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .yt-video{
+        height: 8vw;
+        width: 40%;
+        font-size: 4.5vw;
+        display: flex;
+        text-decoration: none;
+        justify-content: space-evenly;
+        align-items: center;
+        color: #000;
+        border: 0.1vw solid white;
+        background-color: aliceblue;
+        border-radius: 5px;
+    }
+    .yt-video img{
+        height: 6vw; 
+        width: 6vw;
+    }
+
+    .git-repo{
+        height: 8vw;
+        width: 40%;
+        font-size: 4vw;
+        display: flex;
+        text-decoration: none;
+        justify-content: space-evenly;
+        align-items: center;
+        border: 0.1vw solid white;
+        background-color: aliceblue;
+        border-radius: 5px;
+        color: #000;
+    }
+    .git-repo img{
+        height: 5vw; 
+        width: 5vw;
+        background-color: aliceblue;
+        border-radius: 100px;
+        
+    }
+}
+@media (min-width:601px) and (max-width:870px) {
+    .project-div{
+        height: auto;
+        width: 70vw;
+        background-color: rgb(83, 83, 83);
+        display: grid;
+        grid-template-columns: 1fr 2fr; /* 2 colunas: a primeira para o rank e a segunda para o nome */
+        grid-template-rows: auto auto auto auto; /* 4 linhas */
+        border-radius: 10px;
+        border: 0.5vw solid white;
+        margin-bottom: 12vw;
+        position: relative;
+    }
+    .rank{
+        height: 15vw;
+        width: 15vw;
+        font-size: 10vw;
+        top: -0.1vw;
+        left: -0.3vw;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border: 0.5vw solid white;
+        border-radius: 10px 0 0 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(61, 47, 255);
+        grid-column: 1 / 2; /* Coluna 1 */
+        grid-row: 1 / 2; /* Primeira linha */
+        position: absolute;
+    }
+    .project-div h3{
+        height: 15vw;
+        width: 55vw;
+        background-color: black;
+        padding: 1vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-radius: 0 10px 0 0;
+        font-size: 6vw;
+        grid-column: 2 / 3;
+        grid-row: 1 / 2; 
+    }
+    .project-div h4{
+        width: 80%;
+        grid-column: 1 / -1; 
+        grid-row: 2 / 3; 
+        
+        font-size: 4vw;
+        margin: 5vw 10%;
+    }
+    .tech-stack{
+        grid-column: 1 / -1; 
+        grid-row: 3 / 4;
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        justify-content: center;
+        gap: 2vw 4vw; 
+        margin-bottom: 10vw;
+    }
+    .tech-used{
+        height: 12vw;
+        width: 12vw;
+        padding: 1vw;
+        justify-self: center;
+        background-color: aliceblue;
+        border-radius: 100px;
+    }
+    .project-links{
+        grid-column: 1 / -1;
+        grid-row: 4 / 5; 
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 5vw;
+    }
+    .yt-video, .git-repo{
+        height: 8vw;
+        width: 40%;
+        font-size: 4vw;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        color: #000;
+        border: 0.1vw solid white;
+        background-color: aliceblue;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+    .yt-video img, .git-repo img{
+        height: 6vw; 
+        width: 6vw;
+    }
+}
+@media (min-width:871px) and (max-width:1024px){
+    .project-div{
+        height: auto;
+        width: 70vw;
+        background-color: rgb(83, 83, 83);
+        display: grid;
+        grid-template-columns: 1fr 2fr; /* 2 colunas: a primeira para o rank e a segunda para o nome */
+        grid-template-rows: auto auto auto auto; /* 4 linhas */
+        border-radius: 10px;
+        border: 0.5vw solid white;
+        margin-bottom: 12vw;
+        position: relative;
+    }
+    .rank{
+        height: 15vw;
+        width: 15vw;
+        font-size: 10vw;
+        top: -0.1vw;
+        left: -0.3vw;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border: 0.5vw solid white;
+        border-radius: 10px 0 0 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(61, 47, 255);
+        grid-column: 1 / 2; /* Coluna 1 */
+        grid-row: 1 / 2; /* Primeira linha */
+        position: absolute;
+    }
+    .project-div h3{
+        height: 15vw;
+        width: 55vw;
+        background-color: black;
+        padding: 1vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-radius: 0 10px 0 0;
+        font-size: 6vw;
+        grid-column: 2 / 3;
+        grid-row: 1 / 2; 
+    }
+    .project-div h4{
+        width: 80%;
+        grid-column: 1 / -1; 
+        grid-row: 2 / 3; 
+        
+        font-size: 4vw;
+        margin: 5vw 10%;
+    }
+    .tech-stack{
+        grid-column: 1 / -1; 
+        grid-row: 3 / 4;
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        justify-content: center;
+        gap: 2vw; 
+        margin-bottom: 10vw;
+    }
+    .tech-used{
+        height: 10vw;
+        width: 10vw;
+        padding: 1vw;
+        justify-self: center;
+        background-color: aliceblue;
+        border-radius: 100px;
+    }
+    .project-links{
+        grid-column: 1 / -1;
+        grid-row: 4 / 5; 
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 5vw;
+    }
+    .yt-video, .git-repo{
+        height: 6vw;
+        width: 35%;
+        font-size: 3vw;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        color: #000;
+        border: 0.1vw solid white;
+        background-color: aliceblue;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+    .yt-video img, .git-repo img{
+        height: 5vw; 
+        width: 5vw;
+    }
+}
+@media (min-width:1025px){
+    .project-div{
+        height: auto;
+        width: 60vw;
+        background-color: rgb(83, 83, 83);
+        display: grid;
+        grid-template-columns: 1fr 2fr; /* 2 colunas: a primeira para o rank e a segunda para o nome */
+        grid-template-rows: auto auto auto auto; /* 4 linhas */
+        border-radius: 10px;
+        border: 0.5vw solid white;
+        margin-bottom: 5vw;
+        position: relative;
+    }
+    .rank{
+        height: 7vw;
+        width: 10vw;
+        font-size: 6vw;
+        top: -0.05vw;
+        left: -0.3vw;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border: 0.3vw solid white;
+        border-radius: 10px 0 0 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(61, 47, 255);
+        grid-column: 1 / 2; /* Coluna 1 */
+        grid-row: 1 / 2; /* Primeira linha */
+        position: absolute;
+    }
+    .project-div h3{
+        height: 7vw;
+        width: 50vw;
+        background-color: black;
+        padding: 1vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-radius: 0 10px 0 0;
+        font-size: 4vw;
+        grid-column: 2 / 3;
+        grid-row: 1 / 2; 
+    }
+    .project-div h4{
+        width: 80%;
+        grid-column: 1 / -1; 
+        grid-row: 2 / 3; 
+        
+        font-size: 2vw;
+        margin: 4vw 10%;
+    }
+    .tech-stack{
+        grid-column: 1 / -1; 
+        grid-row: 3 / 4;
+        display: grid;
+        grid-template-columns: repeat(6, auto);
+        justify-content: center;
+        row-gap: 3vw;
+        column-gap: 1vw; 
+        margin-bottom: 5vw;
+    }
+    .tech-used{
+        height: 5.5vw;
+        width: 5.5vw;
+        padding: 1vw;
+        justify-self: center;
+        background-color: aliceblue;
+        border-radius: 100px;
+    }
+    .project-links{
+        grid-column: 1 / -1;
+        grid-row: 4 / 5; 
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 5vw;
+    }
+    .yt-video, .git-repo{
+        height: 4vw;
+        width: 20%;
+        font-size: 1.5vw;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        color: #000;
+        border: 0.1vw solid white;
+        background-color: aliceblue;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+    .yt-video img, .git-repo img{
+        height: 3vw; 
+        width: 3vw;
+    }
+}

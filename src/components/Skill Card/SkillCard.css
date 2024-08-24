@@ -1,0 +1,83 @@
+.skill-div{
+    border-radius: 10px;
+    background: linear-gradient(to bottom,rgb(4, 4, 22),black);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.skill-div h3{
+    height: auto;
+    width: auto;
+    color: rgba(255, 255, 255, 0.967);
+}
+.skill-div img{
+    padding: 2vw;
+    border-radius: 20px;
+    border: 0.5vh solid rgba(255, 255, 255, 0.871);
+    background-color: rgb(66, 66, 66);
+}
+@media (max-width:600px) {
+    .skill-div{
+        height: 50vw;
+        width: 40vw;
+    }
+    .skill-div img{
+        height: 20vw;
+        width: 20vw;
+        border: 0.1vh solid rgba(255, 255, 255, 0.871);
+        background-color: rgb(66, 66, 66);
+    }
+    .skill-div h3{font-size: 5.5vw;text-align: center;}
+    .skill-div label{font-size: 4vw; padding-right: 33%;}
+    .skill-div h4{font-size: 5vw;}
+    .skill-div h4,label{height: auto;width: auto;color: #ffffff;}
+}
+@media (min-width:601px) and (max-width:870px) {
+    .skill-div{
+        height: 40vw;
+        width: 28vw;
+    }
+    .skill-div img{
+        height: 15vw;
+        width: 15vw;
+        border: 0.1vh solid rgba(255, 255, 255, 0.871);
+        background-color: rgb(66, 66, 66);
+    }
+    .skill-div h3{font-size:3.7vw;text-align: center;}
+    .skill-div label{font-size: 3vw; padding-right: 33%;}
+    .skill-div h4{font-size: 3vw;}
+    .skill-div h4,label{height: auto;width: auto;color: #ffffff;}
+}
+@media (min-width:871px) and (max-width:1024px){
+    .skill-div{
+        height: 30vw;
+        width: 22vw;
+    }
+    .skill-div img{
+        height: 13vw;
+        width: 13vw;
+        border: 0.1vh solid rgba(255, 255, 255, 0.871);
+        background-color: rgb(66, 66, 66);
+    }
+    .skill-div h3{font-size:3vw;text-align: center;}
+    .skill-div label{font-size: 2vw; padding-right: 33%;}
+    .skill-div h4{font-size: 2.5vw;}
+    .skill-div h4,label{height: auto;width: auto;color: #ffffff;}
+}
+@media (min-width:1025px){
+    .skill-div{
+        height: 23vw;
+        width: 18vw;
+    }
+    .skill-div img{
+        height: 10vw;
+        width: 10vw;
+        border: 0.1vh solid rgba(255, 255, 255, 0.871);
+        background-color: rgb(66, 66, 66);
+    }
+    .skill-div h3{font-size:2.3vw;text-align: center;}
+    .skill-div label{font-size: 1.5vw; padding-right: 33%;}
+    .skill-div h4{font-size: 2vw;}
+    .skill-div h4,label{height: auto;width: auto;color: #ffffff;}
+}

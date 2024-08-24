@@ -1,0 +1,224 @@
+.experience-div{
+    height: auto;
+    width: auto;
+}
+
+@media (max-width:768px) {
+    .experience-div{
+        height: auto;
+        width: 80vw;
+        border-radius: 10px;
+        padding: 3vw;
+        background-color: #212121;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: auto auto auto;
+
+    }
+    .img-job{
+        height: 50vw;
+        width: 100%;
+        border-radius: 10px;
+        border: 1vw solid white;
+        margin-bottom: 2vw;
+        grid-column: 1/-1
+    }
+    #job{
+        font-size: 4.5vw;
+        align-self: center;
+        padding-top: 2px;
+    }
+    #time{
+        height: auto;
+        width: auto;
+        font-size: 4.5vw;
+        grid-column: 2/3;
+        grid-row: 2/3;
+        display: flex;
+        align-items: center;
+    }
+    #time img{
+        height: 5vw;
+        width: 5vw;
+    }
+    #description{
+        height: auto;
+        width: 90%;
+        margin-top: 10%;
+        font-size: 4.5vw;
+        grid-column: 1/-1;
+        grid-row: 3/3;
+        color: white;
+        justify-self: center
+    }
+}
+@media (min-width:769px) and (max-width:1024px) {
+    .experience-div{
+        height: auto;
+        width: 90vw;
+        border-radius: 10px;
+        padding: 3vw;
+        background-color: #212121;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: auto auto auto;
+
+    }
+    .img-job{
+        height: 90%;
+        width: 100%;
+        border-radius: 10px;
+        border: 0.3vw solid white;
+        margin-bottom: 2vw;
+        grid-column: 1/2;
+        grid-row: 1/-1;
+        align-self: center;
+    }
+    #job{
+        font-size: 3.5vw;
+        text-align: start;
+        align-self: center;
+        padding-left: 7%;
+        padding-top: 2px;
+    }
+    #time{
+        height: auto;
+        width: auto;
+        margin-top: 5%;
+        padding-left: 7%;
+        font-size: 3.5vw;
+        grid-column: 2/3;
+        grid-row: 2/3;
+        display: flex;
+        align-items: center;
+        
+    }
+    #time img{
+        height: 4vw;
+        width: 4vw;
+    }
+    #description{
+        height: auto;
+        width: 90%;
+        margin-top: 10%;
+        padding-left: 4%;
+        font-size: 2.5vw;
+        grid-column: 2/2;
+        grid-row: 3/3;
+        color: white;
+        justify-self: center
+    }
+}
+@media (min-width:1025px) and (max-width:1440px){
+    .experience-div{
+        height: auto;
+        width: 90vw;
+        border-radius: 10px;
+        padding: 3vw;
+        background-color: #212121;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: auto auto auto;
+
+    }
+    .img-job{
+        height: 90%;
+        width: 100%;
+        border-radius: 10px;
+        border: 0.3vw solid white;
+        margin-bottom: 2vw;
+        grid-column: 1/2;
+        grid-row: 1/-1;
+        align-self: center;
+    }
+    #job{
+        font-size: 4.5vw;
+        text-align: center;
+        align-self: center;
+        padding-top: 2px;
+    }
+    #time{
+        height: auto;
+        width: auto;
+        margin-top: 5%;
+        padding-left: 7%;
+        font-size: 4vw;
+        grid-column: 2/3;
+        grid-row: 2/3;
+        display: flex;
+        align-items: center;
+        
+    }
+    #time img{
+        height: 4vw;
+        width: 4vw;
+    }
+    #description{
+        height: auto;
+        width: 90%;
+        margin-top: 10%;
+        padding-left: 4%;
+        font-size: 3vw;
+        grid-column: 2/2;
+        grid-row: 3/3;
+        color: white;
+        justify-self: center
+    }
+}
+@media (min-width:1441px){
+    .experience-div{
+        height: auto;
+        width: 80vw;
+        border-radius: 10px;
+        padding: 3vw;
+        background-color: #212121;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: auto auto auto;
+
+    }
+    .img-job{
+        height: 90%;
+        width: 100%;
+        border-radius: 10px;
+        border: 0.3vw solid white;
+        margin-bottom: 2vw;
+        grid-column: 1/2;
+        grid-row: 1/-1;
+        align-self: center;
+    }
+    #job{
+        font-size: 3.5vw;
+        text-align: start;
+        align-self: center;
+        padding-left: 7%;
+        padding-top: 2px;
+    }
+    #time{
+        height: auto;
+        width: auto;
+        margin-top: 5%;
+        padding-left: 7%;
+        font-size: 3vw;
+        grid-column: 2/3;
+        grid-row: 2/3;
+        display: flex;
+        align-items: center;
+        
+    }
+    #time img{
+        height: 3vw;
+        width: 3vw;
+    }
+    #description{
+        height: auto;
+        width: 90%;
+        margin-top: 10%;
+        padding-left: 4%;
+        font-size: 2vw;
+        grid-column: 2/2;
+        grid-row: 3/3;
+        color: white;
+        justify-self: center
+    }
+}
