@@ -22,6 +22,7 @@ function Skills(){
                 <SkillCard img="cpp-icon.png" name="C++" level="Intermediate"/>
                 <SkillCard img="git_icon.png" name="Git" level="Intermediate"/>
                 <SkillCard img="word-icon.png" name="Word" level="Intermediate"/>
+                <SkillCard img="mongo-icon.png" name="Mongo DB" level="Intermediate"/>
                 <SkillCard img="excel-icon.png" name="Excel" level="Basic"/>
                 <SkillCard img="power-bi-icon.png" name="Power Bi" level="Basic"/>
             </div>
